@@ -1,0 +1,6 @@
+# 7-11. Print Squares and Cubes of X:  Starting with the following code, complete the 
+# print statement using .format() such that it produces the attached output:
+
+print("x\tx**2\tx**3")
+for x in range(1, 11):
+    print(f"{x}\t{x**2}\t{x**3}")
