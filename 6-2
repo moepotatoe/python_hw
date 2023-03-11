@@ -1,0 +1,26 @@
+# 6-2. Favorite Numbers: Use a dictionary to store people’s favorite numbers. 
+
+# Think of five names, and use them as keys in your dictionary. 
+# Think of a favorite number for each person, and store each as a value in your dictionary. 
+# Print each person’s name and their favorite number. 
+
+# This method is based on how Slide 9 in the notes completed this task.
+# A loop would be more efficeient but I'm guessing that will be a later HW.
+# Won't change for now.
+
+namesAndNumbers = {'Kurt':'42','Jennifer':'84','Kit':'4','Crouton':'40','Blisters':'2020'}
+
+name = namesAndNumbers['Kurt']
+print (f"Kurt's favorite number is {name}.")
+
+name = namesAndNumbers['Jennifer']
+print (f"Jennifer's favorite number is {name}.")
+
+name = namesAndNumbers['Kit']
+print (f"Kit's favorite number is {name}.")
+
+name = namesAndNumbers['Crouton']
+print (f"Crouton's favorite number is {name}.")
+
+name = namesAndNumbers['Blisters']
+print (f"Blisters's favorite number is {name}.")
