@@ -1,0 +1,8 @@
+# 7-13. More Print Numbers: Using the list from 7-12, numbers in this formatted output using an str.format():
+
+thelist = [123.45, -5.12345, 0.056789]
+
+line = "______"
+
+for x in thelist:
+    print('{} {} {}'.format(line,x,line)
