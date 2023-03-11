@@ -1,0 +1,43 @@
+# Create a list called all_users and initialize it with three users.  Print it.
+
+all_users = ['Kurt', 'Jennifer','Crouton']
+print("All Users:", all_users)
+
+# Add a user to this list using append
+
+all_users.append('Kit')
+print("Updated All Users:", all_users)
+
+# Create a list called untrusted_users with two users, one in all_users and one that is not.  Print it.
+
+untrusted_users = ['Julie','Blisters']
+print("Untrusted Users:", untrusted_users)
+
+# Using the two previously created lists, create a list called trusted_users 
+# - using a list comprehension
+# - using a for loop
+
+trusted_users = all_users + untrusted_users
+print("\nTrusted Users:")
+for x in trusted_users:
+    print(x)
+
+# Sets
+# Create a set called all_user with 5 user names.
+
+all_user = {'Kurt','Jennifer','Crouton','Kit','Blisters'}
+print(all_user)
+print("\n")
+
+# WHY ARE THEY GOING OUT OF ORDER???
+
+# Create a set called untrusted_users containing 2 users, one in all_users and one not in all_users.
+
+untrusted_users = {'Julie','Blisters'}
+
+# Using subtraction, create a list called trusted_users which contains all_users but none in untrusted_users.
+
+trusted_users2 = all_user - untrusted_users
+
+print("Trusted Users Set",trusted_users2)
+print("\n")
