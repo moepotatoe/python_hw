@@ -1,0 +1,16 @@
+# 7-14. Table Printing: Create a dictionary of famous people containing first name, 
+# last name, date of birth, birthplace and notable quote.  Print the contents of the 
+# dictionary in a formatted table.  Adjust columns to look attractive for your table.
+
+rockguys = {
+                 1:['David','Byrne','May 14, 1952','Dumbarton, UK','Psycho Killer'],
+                 2:['Ian','Svenonius','June 1, 1968','Chicago, Illinois','Yeh-yeh'],
+                 3:['Mark','Mothersbaugh','May 18, 1950','Akron, Ohio','Devolution is real'],
+           }
+
+print ("{:<20} {:<20} {:<20} {:<20} {:<20}".format('FIRST NAME', 'LAST NAME', 'BIRTHDAY','BIRTHPLACE','QUOTE')) 
+print("-------------------------------------------------------------------------------------------------")
+
+for key, value in rockguys.items(): 
+    firstname, lastname, birthday, birthplace, quote = value 
+    print ("{:<20} {:<20} {:<20} {:<20} {:<20}".format(firstname, lastname, birthday,birthplace,quote))
