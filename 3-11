@@ -1,0 +1,17 @@
+# 3-11. Slicing: Suppose that word = "image" and phrase = "protein synthesis" 
+# write a program that displays the following string slices, i, age, im, iae, rote, protein synth, protein image.  
+# The first line has been completed for you as an example.  
+# Name the program string_slicing.py.
+
+word = "image"
+
+print(word[0])
+print(word[2:5])
+print(word[:2])
+print(word[::2])
+
+phrase = "protein synthesis"
+print(phrase[1:5])
+print(phrase[0:13])
+
+print(phrase[0:8] + word)
