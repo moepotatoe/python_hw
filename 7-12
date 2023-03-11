@@ -1,0 +1,15 @@
+# 7-12. Printing Number: Create a list containing the following numbers: 123.45, -5.12345, 0.056789.  
+# Print these numbers in this formatted output using an f-string.
+
+numberlist = ['123.45','-5.12345','0.056789']
+
+print(f"Number: {numberlist[0]}")
+print(f"Number: {numberlist[1]}")
+print(f"Number: {numberlist[2]}")
+print("\n")
+first = '{}'.format(numberlist[0])
+print(f"Number:\t{first}")
+second = '{}'.format(numberlist[1])
+print(f"Number:\t{second}")
+third = '{}'.format(numberlist[2])
+print(f"Number:\t{third}")
