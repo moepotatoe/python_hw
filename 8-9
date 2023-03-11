@@ -1,0 +1,10 @@
+# 8-9. Messages: Make a list containing a series of short text messages. 
+# Pass the list to a function called show_messages(), which prints each text message.
+
+def print_messages(messages):
+    for message in messages:
+        print(f"{message.title()}\n")
+        
+chosen_messages = ['Python Is Now Your Master','Microaggressions Run Amok','50 Shades of Forever']
+print_messages(chosen_messages)
+
