@@ -1,0 +1,21 @@
+#  6-7. People: Start with the program you wrote for 6-1. 
+#  
+person1 = {'First Name':'Blisters','Last Name':'Prutsman','Age':'11 Months','City':'San Clemente'}
+
+#  Make two new dictionaries representing different people, 
+
+person2 = {'First Name':'Crouton','Last Name':'Prutsman','Age':'15 Years','City':'San Clemente'}
+person3 = {'First Name':'O-Ren','Last Name':'Strowmatt','Age':'8 Years','City':'Reno'}
+
+# and store all three dictionaries in a list called people. 
+
+people = [person1,person2,person3]
+
+for info in people:
+    #      NOT F-STRING
+    # print(info['First Name'],info['Last Name'],"is", info['Age'], "and lives in the city of",info['City'])
+    #      THIS IS THE F-STRING
+    print(f"{info['First Name']} {info['Last Name']} is {info['Age']} and lives in the city of {info['City']}.")
+    
+#  Loop through your list of people. As you loop through the list, print everything you know about each person.  
+#  For example, "Neil Thompson is 66 years old and lives in the city of Orange."
