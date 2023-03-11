@@ -1,0 +1,22 @@
+# 3-5. Changing Guest List: You just heard that one of your guests can’t make the dinner, so 
+# you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+guestlist = ['Iggy Pop','John Dwyer','Ian Svenonious','Kurt Cobain']
+invite = (", would you like to have dinner?")
+
+print(guestlist[0],invite)
+print(guestlist[1],invite)
+print(guestlist[2],invite)
+print(guestlist[3],invite)
+print(end='\n')
+print(guestlist[3],"can't make it for dinner!")
+del guestlist[3]
+guestlist.append('Devendra Banhart')
+print(end='\n')
+print(guestlist[0],invite)
+print(guestlist[1],invite)
+print(guestlist[2],invite)
+print(guestlist[3],invite)
+print(end='\n')
+print("Final Guest List:",guestlist)
+print(end='\n')
