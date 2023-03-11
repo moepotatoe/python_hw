@@ -1,0 +1,6 @@
+# 4-3. Counting to Twenty: Use a for loop to print the numbers from 1 to 20, inclusive.
+
+i = 0
+while i < 10:
+    i = i+1
+    print(i)
