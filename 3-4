@@ -1,0 +1,11 @@
+# 3-4. Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? 
+# Make a list that includes at least three people you’d like to invite to dinner. Then use your list 
+# to print a message to each person, inviting them to dinner.
+
+guestlist = ['Iggy Pop','John Dwyer','Ian Svenonius','Kurt Cobain']
+invite = ", would you like to have dinner?"
+
+print(guestlist[0],invite)
+print(guestlist[1],invite)
+print(guestlist[2],invite)
+print(guestlist[3],invite)
