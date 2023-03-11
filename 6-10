@@ -1,0 +1,10 @@
+# 6-10. Favorite Numbers: Modify your program from 6-2 so each person can have more than one favorite number. 
+# For one person, give them three favorite number and for another give them two favorite numbers.  
+# Then print each person’s name along with their favorite numbers.
+
+favoriteNumbers1 = ['1','2','3']
+favoriteNumbers2 = ['4','5','6']
+namesAndNumbers = {"Kurt": favoriteNumbers1, "Kit": favoriteNumbers2}
+
+for name,numbers in namesAndNumbers.items():
+    print(f"Person: {name} \tFavorite Numbers: {numbers}")
