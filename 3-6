@@ -1,0 +1,25 @@
+# 3-6. More Guests: You just found a bigger dinner table, so now more space is available. 
+# Think of three more guests to invite to dinner.
+
+guestlist = ['Iggy Pop','John Dwyer','Ian Svenonious','Kurt Cobain']
+invite = (", would you like to have dinner?")
+
+for guests in guestlist:
+    print(guests, invite)
+
+print(end='\n')
+print(guestlist[3],"can't make it for dinner!")
+del guestlist[3]
+guestlist.append('Devendra Banhart')
+print(end='\n')
+for guests in guestlist:
+    print(guests, invite)
+print(end='\n')
+guestlist.append('David Bowie')
+guestlist.append('Mark Mothersbraugh')
+guestlist.append('Jack White')
+for guest in guestlist[4:]:
+    print(guest, invite)
+print(end='\n')
+print("Final Guest List:", guestlist)
+print(end='\n')
