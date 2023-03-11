@@ -1,0 +1,15 @@
+# 8-3. T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message 
+# that should be printed on the shirt. The function should print a sentence summarizing the size of 
+# the shirt and the message printed on it.
+
+# Call the function once using positional arguments to make a shirt. Call the function a second time using keyword arguments.
+
+def make_shirt(size, message):
+    print(f"You ordered a {size} shirt that will say {message}")
+
+make_shirt("XL","Hello World")
+
+size1 = input("What size shirt do you want? ")
+message1 = input("What do you want it to say? ")
+
+make_shirt(size1, message1)
