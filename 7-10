@@ -1,0 +1,29 @@
+# 7-10. Dream Vacation: Write a program that polls users about their dream vacation.  
+# See mountain_poll.py
+
+# Write a prompt that first asks for the person's name, then asks what country their 
+# first dream vacation would be in and then asks what country their second dream vacation 
+# would be in.
+
+dreams = { } 
+
+polling_active = True
+while polling_active:
+    name = input("Please enter your name: ")
+    firstvacation = input(f"{name}, what country is your dream vacation? ")
+    secondvacation = input("What is your other dream vacation? ")
+
+# Store the result in a dictionary with the name as the key and the value 
+# is a list of destinations. 
+
+    places = [firstvacation, secondvacation]
+    dreams[name] = places
+
+    repeat = input("Would you like to let another person respond? (yes/ no) ")
+    if repeat == 'no':
+        polling_active = False
+
+# Include a block of code that prints the results of the poll. 
+
+for name, places in dreams.items():
+    print(f"{name} {places}")
