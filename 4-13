@@ -1,0 +1,21 @@
+# A buffet-style restaurant offers only five basic foods. Think of five simple foods, and store them in a tuple.
+
+buffet_menu = "Cheeseburger Sliders","Jell-O","Sushi","Onion Rings","Pizza"
+
+# Use a for loop to print each food the restaurant offers.
+for x in range(len(buffet_menu)):
+    print(buffet_menu[x])
+
+print("\n")
+
+# Try to modify one of the items, and make sure that Python rejects the change.
+# -> buffet_menu.remove('Pizza')
+
+# The restaurant changes its menu, replacing two of the items with different foods. 
+# Add a line that rewrites the tuple, and then use a for loop to print each of the items on the revised menu.
+
+buffet_menu = "Cheeseburger Sliders","Jell-O","Sushi","Onion Soup","Calzones"
+for x in range(len(buffet_menu)):
+    print(buffet_menu[x])
+
+print("\n")
